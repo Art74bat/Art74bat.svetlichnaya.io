@@ -1,0 +1,40 @@
+.work-direction{
+    &__title{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    &__card{
+        min-width: 350px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    &__card-wrapp{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        padding-top: 43px;
+    }
+    &__number{
+        padding: 10px;
+        color: $orang-color;
+        font-family:$semi-bold,sans-serif ;
+        align-self: flex-start;
+        border: 2px solid $orang-color;
+        border-radius: 50%;
+    }
+    .first{
+        padding: 10px 12px;
+    }
+    &__descript{
+        max-width: 600px;
+        line-height: 1.6rem;
+    }
+    &__image{
+        width: 100%;
+        height: 390px;
+        background-color: $blue-color;
+        border-radius: 8px;
+    }
+}

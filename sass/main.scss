@@ -1,0 +1,86 @@
+@import "reset";
+@import "fonts";
+@import "var";
+@import "header";
+@import "head";
+@import "who-i-am";
+@import "help";
+@import "work";
+@import "price";
+@import "myform";
+@import "form";
+@import "reviews";
+@import "credo";
+@import "article";
+@import "footer";
+
+
+
+// for svg picture...
+#Layer_1{
+    width: 30px;
+    height: 30px;
+}
+#layer-2{
+    fill: #eab65c;
+    fill-opacity:1;
+    stroke:none;
+    fill-rule:nonzero;
+}
+
+.container{
+    max-width: 1900px;
+    min-width: 455px;
+    margin: 0px auto;
+    // padding: 20px;
+    // padding-left: 40px;
+    color: $balck-color;
+    font-family: $regular,sans-serif;
+    background-color: #fff;
+}
+
+.logo {
+    width: 250px;
+    padding: 5px;
+}
+
+.main {
+    &__wrapp{
+        padding: 0px 90px;
+    }
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color:$balck-color;
+    font-family: $bold,sans-serif;
+}
+
+.section-title{
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: $regular,sans-serif;
+    color: $balck-color;
+    margin-bottom: 40px;
+}
+.btn {
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 1.9rem;
+    color: white;
+    font-family:$semi-bold,sans-serif;
+    background-color:$orang-color;
+    box-shadow: 0 0 8px rgb(228, 197, 113);
+}
+
+.link {
+    text-decoration: underline;
+    margin-left: 20px;
+    color:$orang-color;
+    font-family: $medium,sans-serif;
+}
+
+
+
+

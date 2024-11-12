@@ -1,0 +1,20 @@
+.myform{
+    margin-bottom: 60px;
+    padding: 0px 90px;
+    padding-bottom: 30px;
+    background-color: $blue-color;
+    color:white;
+    // font-family: $regular,sans-serif;
+
+    &__wrapp{
+        max-width: 690px;
+    }
+    &__title{
+        padding-top: 30px;
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    &__descript{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,46 @@
+.help{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+    // font-family: $regular,sans-serif;
+    &__card-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 1.2rem;
+        margin-bottom: 30px;
+    }
+    &__card-item{
+        width: 350px;
+        height: 200px;
+        display: flex;
+        padding-bottom: 30px;
+        justify-content: center;
+        align-items: flex-end;
+        background-color: rgb(55, 91, 133);
+        border-radius: 10px;
+        box-shadow: 0 0 10px $blue-shadow;
+    }
+    &__card-item-title{
+        padding: 0 10px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+
+    }
+    &__btn{
+        display: flex;
+        width: 300px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+
+
+/* Одноколоночное отображение на мобильных */
+// @media (max-width: 459px) {
+//     .card-item {
+//         display: flex;
+//         flex-direction: column;
+//     }
+// }

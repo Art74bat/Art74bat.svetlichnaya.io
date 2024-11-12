@@ -1,0 +1,31 @@
+.price{
+    margin-bottom: 60px;
+    &__wrapp{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    &__card{
+        width: 350px;
+        height: 250px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: $card-color;
+        border-radius: 8px;
+    }
+    &__card-descript{
+        font-size: 1.2rem;
+    }
+    &__card-price{
+        font-size: 1.5rem;
+        font-family: $medium,sans-serif;
+    }
+    &__card-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}

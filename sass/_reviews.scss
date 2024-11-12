@@ -1,0 +1,75 @@
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    &__carusel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    &__title{
+        align-self: flex-start;
+    }
+    &__btn{
+        display: flex;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        background-color: $orang-color;
+        border-radius: 50%;
+    }
+    &__card{
+        width: 370px;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: $card-color;
+        border-radius: 1rem;
+        box-shadow: 0 0 8px $blue-shadow;
+    }
+
+    &__card-title{
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    &__card-date{
+        margin-bottom: 20px;
+        color: $orang-color;
+        order: -1;
+    }
+    &__card-descript{
+        width: 80%;
+        max-height: 150px;
+        line-height: 1.5rem;
+        overflow: auto;
+        // для Firefox...
+        // scrollbar-color: $orang-color white ; 
+        // scrollbar-width: auto ;  
+    }
+    &__card-descript::-webkit-scrollbar {
+        width: 8px; 
+        background-color: white;
+        border-radius: 1rem;
+    }
+    &__card-descript::-webkit-scrollbar-thumb {
+        background-color: $orang-color;
+        border-radius: 1rem;
+    }
+
+}
+@media (max-width: 659px) {
+    .reviews__carusel {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}

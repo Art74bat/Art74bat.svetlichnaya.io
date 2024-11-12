@@ -1,0 +1,35 @@
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+        &__wrapp-left {
+            padding-top: 40px;
+        }
+        &__text {
+            margin-bottom: 40px;
+            // color:$balck-color;
+            // font-family: $regular,sans-serif;
+            line-height: 1.6rem;
+        }
+        &__nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        &__consultation-btn:hover{
+            box-shadow: 0 0 4px rgb(237, 215, 157);
+        }
+        &__wrapp-right {
+            width: 600px;
+            background-color: $blue-color;
+        }
+        &__pic {
+            display: block;
+            height: 500px;
+        }
+        &__img {
+            border:1px solid green;
+        }
+}

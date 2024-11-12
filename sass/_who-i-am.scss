@@ -1,0 +1,62 @@
+.who-i-am {
+    // color: $balck-color;
+    // font-family: $regular,sans-serif;
+        &__wrapp {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        &__wrapp-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__video {
+            min-width: 350px;
+            height: 400px;
+            background-color: $blue-color;
+            margin-bottom: 20px;
+            border-radius: 4%;
+        }
+        &__video-descript{
+            line-height: 1.6rem;
+        }
+
+        &__wrapp-right {
+            padding-top: 20px;
+            max-width: 600px;
+        }
+        &__description{
+            margin-bottom: 10px;
+            line-height: 1.6rem;
+        }
+        &__list {
+            margin-bottom: 20px;
+            list-style: none;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        &__item {
+            position: relative;
+            margin-left: 20px;
+            line-height: 1.6rem;
+            margin-bottom: 30px;
+        }
+        &__item::before {
+            content: url('../image/marker-24.png');
+            position: absolute;
+            left: -30px;
+            top: 0;
+        }
+        &__link{
+            display: block;
+            margin-bottom: 20px;
+        }
+}
+// используем media ...а то flex-wrapp все сразу переносит
+@media (max-width: 659px) {
+    .who-i-am__wrapp {
+        display: flex;
+        flex-direction: column;
+    }
+}

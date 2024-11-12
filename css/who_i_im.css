@@ -1,0 +1,42 @@
+.who-i-am {
+  border: 1px solid red;
+}
+
+.who-i-am__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  border: 1px solid grey;
+}
+
+.who-i-am__wrapp-left {
+  max-width: 800px;
+  border: 1px solid grey;
+}
+
+.who-i-am__description {
+  margin-bottom: 10px;
+}
+
+.who-i-am__wrapp-right {
+  border: 1px solid grey;
+}
+
+.who-i-am__video {
+  height: 300px;
+  background-color: #3e9ec8;
+}
+
+.who-i-am__list {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.who-i-am__item {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=who_i_im.css.map */
