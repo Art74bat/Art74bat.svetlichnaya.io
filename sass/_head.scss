@@ -1,6 +1,6 @@
 .head {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     gap: 30px;
     justify-content: space-between;
     margin-bottom: 60px;
@@ -8,6 +8,7 @@
             padding-top: 40px;
         }
         &__text {
+            width: 600px;
             margin-bottom: 40px;
             // color:$balck-color;
             // font-family: $regular,sans-serif;
@@ -22,14 +23,15 @@
             box-shadow: 0 0 4px rgb(237, 215, 157);
         }
         &__wrapp-right {
-            width: 600px;
-            background-color: $blue-color;
+
+            // background-color: $blue-color;
         }
         &__pic {
             display: block;
-            height: 500px;
+            width: 600px;
         }
         &__img {
-            border:1px solid green;
+            width: 100%;
+            object-fit: fill;
         }
 }
