@@ -61,27 +61,6 @@ input[type=text] {
   font-weight: 700;
   font-display: swap;
 }
-.header .st0 {
-  fill: #FFE100;
-}
-.header .st1 {
-  fill: #ED1C24;
-}
-.header .st2 {
-  fill: #F9A01B;
-}
-.header .st3 {
-  fill: #67923D;
-}
-.header .st4 {
-  fill: #9990C5;
-}
-.header .st5 {
-  fill: #406325;
-}
-.header .st6 {
-  fill: #eab65c;
-}
 .header__wrapp-top {
   display: flex;
   flex-wrap: wrap;
@@ -102,10 +81,6 @@ input[type=text] {
   gap: 10px;
   list-style: none;
 }
-.header .social__link {
-  display: block;
-  width: 30px;
-}
 .header .email {
   display: flex;
   list-style: none;
@@ -124,12 +99,10 @@ input[type=text] {
   list-style: none;
 }
 .header .phone__text {
-  font-style: normal;
   color: #eab65c;
   font-family: "Montserrat-Regular";
 }
 .header .phone__number {
-  font-style: normal;
   color: rgb(88, 88, 88);
   font-family: "Montserrat-Regular", sans-serif;
 }
@@ -150,15 +123,18 @@ input[type=text] {
 
 .head {
   display: flex;
-  gap: 30px;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 130px;
+  justify-content: center;
   margin-bottom: 60px;
 }
 .head__wrapp-left {
+  max-width: 800px;
+  padding-left: 90px;
   padding-top: 40px;
+  border: 1px solid grey;
 }
 .head__text {
-  width: 600px;
   margin-bottom: 40px;
   line-height: 1.6rem;
 }
@@ -170,9 +146,13 @@ input[type=text] {
 .head__consultation-btn:hover {
   box-shadow: 0 0 4px rgb(237, 215, 157);
 }
+.head__wrapp-right {
+  max-width: 500px;
+}
 .head__pic {
+  position: relative;
   display: block;
-  width: 600px;
+  z-index: 0;
 }
 .head__img {
   width: 100%;
@@ -679,6 +659,7 @@ input[type=text] {
 
 .main__wrapp {
   padding: 0px 90px;
+  border: 1px solid grey;
 }
 
 .title {

@@ -1,14 +1,16 @@
 .head {
     display: flex;
-    // flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 130px;
+    justify-content: center;
     margin-bottom: 60px;
         &__wrapp-left {
+            max-width: 800px;
+            padding-left: 90px;
             padding-top: 40px;
+            border:1px solid grey;
         }
         &__text {
-            width: 600px;
             margin-bottom: 40px;
             // color:$balck-color;
             // font-family: $regular,sans-serif;
@@ -23,15 +25,18 @@
             box-shadow: 0 0 4px rgb(237, 215, 157);
         }
         &__wrapp-right {
-
+            max-width: 500px;
             // background-color: $blue-color;
         }
         &__pic {
+            position: relative;
             display: block;
-            width: 600px;
+            z-index: 0;
         }
+
         &__img {
             width: 100%;
             object-fit: fill;
+            // border:1px solid green;
         }
 }

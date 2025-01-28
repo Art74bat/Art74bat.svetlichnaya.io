@@ -1,11 +1,4 @@
 .header{
-    .st0{fill:#FFE100;}
-    .st1{fill:#ED1C24;}
-    .st2{fill:#F9A01B;}
-    .st3{fill:#67923D;}
-    .st4{fill:#9990C5;}
-    .st5{fill:#406325;}
-    .st6{fill:#eab65c;}
     &__wrapp-top {
         display: flex;
         flex-wrap: wrap;
@@ -25,11 +18,6 @@
         display: flex;
         gap: 10px;
         list-style: none;
-        &__link{
-            display: block;
-            width: 30px;
-
-        }
     }
     .email {
         display: flex;
@@ -48,12 +36,10 @@
         padding-right: 20px;
         list-style: none;
         &__text {
-            font-style: normal;
             color:$orang-color;
             font-family: $regular;
         }
         &__number {
-            font-style: normal;
             color:$balck-color;
             font-family: $regular,sans-serif;
         }
